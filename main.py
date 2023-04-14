@@ -38,7 +38,7 @@ Bot = Client(
 START_TEXT = """**Hello {} vro 😌
 I am small media or file to telegra.ph link uploader bot.**
 >> `I can convert under 5MB photo or video to telegraph link.`
-Made by @shiro_bot_support"""
+Made by @Jackeybots"""
 
 HELP_TEXT = """**Hey, Follow these steps:**
 ➠ Just give me a media under 5MB
@@ -53,11 +53,11 @@ Made by """
 
 ABOUT_TEXT = """--**About Me**-- 😎
 🤖 **Name :** [Telegraph Uploader](https://telegram.me/{})
-👨‍💻 **Developer :** [look me](https://t.me/charmyanime)
-👨‍💻 **Editor :** [lol](https://t.me/youtuberyt54355)
-📢 **Channel :** [rest botz](https://telegram.me/shiro_bot_support)
-👥 **Group :** [support grp](https://telegram.me/anime_period)
-🌐 **Source :** [👉 Click here](https://t.me/shiro_bot_support)
+👨‍💻 **Developer :** [look me](https://t.me/jackey_07)
+👨‍💻 **Editor :** [lol](https://t.me/clause07)
+📢 **Channel :** [rest botz](https://telegram.me/jackeybots)
+👥 **Group :** [support grp](https://telegram.me/aecr_movies)
+🌐 **Source :** [👉 Click here](https://t.me/jackeybots)
 📝 **Language :** [Python3](https://python.org)
 🧰 **Framework :** [Pyrogram](https://pyrogram.org)
 📡 **Server :** [Heroku](https://heroku.com)"""
@@ -66,7 +66,7 @@ FORCE_SUBSCRIBE_TEXT = "<code>Sorry Dear You Must Join My Updates Channel for us
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🖥️ owner 🖥️', url='https://t.me/charmyanime'),
+        InlineKeyboardButton('🖥️ owner 🖥️', url='https://t.me/jackey_07'),
         ],[
         InlineKeyboardButton('⚙ Help', callback_data='help'),
         InlineKeyboardButton('About 🔰', callback_data='about'),
@@ -76,7 +76,7 @@ START_BUTTONS = InlineKeyboardMarkup(
 
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🖥️  owner 🖥️', url='https://t.me/charmyanime'),
+        InlineKeyboardButton('🖥️  owner 🖥️', url='https://t.me/jackey_07'),
         ],[
         InlineKeyboardButton('🏘 Home', callback_data='home'),
         InlineKeyboardButton('About 🔰', callback_data='about'),
@@ -86,7 +86,7 @@ HELP_BUTTONS = InlineKeyboardMarkup(
 
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🖥️ owner 🖥️', url='https://t.me/charmyanime'),
+        InlineKeyboardButton('🖥️ owner 🖥️', url='https://t.me/jackey_07'),
         ],[
         InlineKeyboardButton('🏘 Home', callback_data='home'),
         InlineKeyboardButton('Help ⚙', callback_data='help'),
@@ -228,10 +228,10 @@ async def telegraph_upload(bot, update):
                     InlineKeyboardButton(text="Share Link", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}")
                 ],
                 [  
-                    InlineKeyboardButton(text="⚙ Join Updates Channel ⚙", url="https://telegram.me/shiro_bot_support")
+                    InlineKeyboardButton(text="⚙ Join Updates Channel ⚙", url="https://telegram.me/jackeybots")
                 ],
                 [
-                    InlineKeyboardButton('🖥️ owner 🖥️', url='https://t.me*/charmyanime')
+                    InlineKeyboardButton('🖥️ owner 🖥️', url='https://t.me/jackey_07')
                 ]
             ]
         )
