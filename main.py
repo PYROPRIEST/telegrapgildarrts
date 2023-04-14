@@ -55,7 +55,7 @@ ABOUT_TEXT = """--**About Me**-- 😎
 🤖 **Name :** [Telegraph Uploader](https://telegram.me/{})
 👨‍💻 **Developer :** [look me](https://t.me/jackey_07)
 👨‍💻 **Editor :** [lol](https://t.me/clause07)
-📢 **Channel :** [rest botz](https://telegram.me/jackeybots)
+📢 **Channel :** [JackeyBots](https://telegram.me/jackeybots)
 👥 **Group :** [support grp](https://telegram.me/aecr_movies)
 🌐 **Source :** [👉 Click here](https://t.me/jackeybots)
 📝 **Language :** [Python3](https://python.org)
@@ -219,7 +219,7 @@ async def telegraph_upload(bot, update):
         print(error)
         return
     await text.edit_text(
-        text=f"<b>Link :-</b> <code>https://telegra.ph{response[0]}</code>\n\n<b>Join :-</b> @MT_Botz",
+        text=f"<b>Link :-</b> <code>https://telegra.ph{response[0]}</code>\n\n<b>Join :-</b> @JackeyBots",
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
